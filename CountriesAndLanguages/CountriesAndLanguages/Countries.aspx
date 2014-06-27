@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Countries.aspx.cs" MasterPageFile="~/template.master" Inherits="Countries" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="Countries.aspx.cs" Inherits="CountriesAndLanguages.Countries" %>
 <asp:Content ID="Content1" ContentPlaceHolderId="headerContent" runat="server">
   <h1>Official languages of countries</h1>
 </asp:Content>

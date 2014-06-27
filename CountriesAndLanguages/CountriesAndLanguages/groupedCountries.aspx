@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="groupedCountries.aspx.cs" MasterPageFile="~/template.master" Inherits="groupedCountries" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="groupedCountries.aspx.cs" Inherits="CountriesAndLanguages.groupedCountries" %>
 <asp:Content ID="Content1" ContentPlaceHolderId="headerContent" runat="server">
   <h1>Global Language use</h1>
 </asp:Content>

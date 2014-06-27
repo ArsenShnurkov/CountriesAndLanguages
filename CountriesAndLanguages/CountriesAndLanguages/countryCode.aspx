@@ -1,5 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="countryCode.aspx.cs" MasterPageFile="~/template.master" Inherits="countryCode" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/template.Master" AutoEventWireup="true" CodeBehind="countryCode.aspx.cs" Inherits="CountriesAndLanguages.countryCode" %>
 <asp:Content ID="Content1" ContentPlaceHolderId="headerContent" runat="server">
   <h1 id="headerTitle" runat="server">Language use in :countryName</h1>
 </asp:Content>
@@ -53,8 +52,8 @@
 
             var legend = d3.select("#pieChart").append("svg")
               .attr("class", "legend")
-              .attr("width", 1.5*r)
-              .attr("height", 2*r)
+              .attr("width", 1.5 * r)
+              .attr("height", 2 * r)
               .selectAll("g")
               .data(data)
               .enter().append("g")
@@ -69,7 +68,7 @@
               .attr("x", 24)
               .attr("y", 9)
               .attr("dy", ".35em")
-              .text(function (d) { return d.label+" ("+d.value+"%)"; });
+              .text(function (d) { return d.label + " (" + d.value + "%)"; });
         }
 
         draw(<%= dataField.Value %>);
@@ -84,4 +83,3 @@
         <p>Invalid country code. Must be 3 letters.</p>
     </div>
 </asp:Content>
-
