@@ -49,7 +49,12 @@ FROM country,countryLanguage WHERE code=countrycode AND isofficial='t' ORDER BY 
                             link.NavigateUrl = "/country/:" + datarowArray[i].ToString();
                             cell.Controls.Add(link);
                         } else {
-                            cell.Text = datarowArray[i].ToString();
+                            if (i == 4) {
+                                float p = float.Parse(datarowArray[i].ToString());
+                                cell.Text = p.ToString("0.00");
+                            } else {
+                                cell.Text = datarowArray[i].ToString();
+                            }
                         }
                         row.Cells.Add(cell);
                     }

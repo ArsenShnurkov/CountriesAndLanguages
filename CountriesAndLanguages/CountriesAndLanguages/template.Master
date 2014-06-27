@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Countries and Languages</title>
     <link rel="stylesheet" href='<%= ResolveUrl("~/Content/bootstrap.css") %>' />
+    <link rel="stylesheet" href='<%= ResolveUrl("~/Content/footer.css") %>' />
 </head>
     <body>
         <div>
@@ -16,7 +17,7 @@
         </div>
 <asp:ContentPlaceHolder id="scriptsContent" runat="server"></asp:ContentPlaceHolder>
 <asp:ContentPlaceHolder id="personalContent" runat="server"></asp:ContentPlaceHolder>
-        <script src='<%= ResolveUrl("~/Scripts/jquery-2.1.1.js") %>'></script>
+        <script src='<%= ResolveUrl("~/Scripts/jquery-2.1.1.min.js") %>'></script>
         <script src='<%= ResolveUrl("~/Scripts/bootstrap.min.js") %>'></script>
     <script type="text/javascript">
         $(window).resize(function () {
@@ -27,5 +28,8 @@
             $('body').css('padding-top', parseInt($('#main-navbar').css("height")));
         });
     </script>
+    <footer>
+        <div class="container">By Jacek Dermont for Kainos</div>
+    </footer>
     </body>
 </html>
