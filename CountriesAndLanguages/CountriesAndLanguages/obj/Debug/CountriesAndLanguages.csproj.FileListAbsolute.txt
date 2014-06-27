@@ -7,9 +7,3 @@ c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\Count
 c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\Mono.Security.dll
 c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\Npgsql.pdb
 c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\Npgsql.xml
-c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\de\Npgsql.resources.dll
-c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\es\Npgsql.resources.dll
-c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\fi\Npgsql.resources.dll
-c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\fr\Npgsql.resources.dll
-c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\ja\Npgsql.resources.dll
-c:\users\jacek\documents\visual studio 2012\Projects\CountriesAndLanguages\CountriesAndLanguages\bin\zh-CN\Npgsql.resources.dll
