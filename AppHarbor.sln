@@ -1,0 +1,13 @@
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "LanguagesAndCountries", "LanguagesAndCountries\", "{5AEC84E9-2BA5-4AC3-88B6-8A07DCF1EE2E}"
+    ProjectSection(WebsiteProperties) = preProject
+        TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+        Release.AspNetCompiler.VirtualPath = "/debug"
+        Release.AspNetCompiler.PhysicalPath = "LanguagesAndCountries\"
+        Release.AspNetCompiler.TargetPath = "bin\release\"
+        Release.AspNetCompiler.Updateable = "true"
+        Release.AspNetCompiler.ForceOverwrite = "true"
+        Release.AspNetCompiler.FixedNames = "false"
+        Release.AspNetCompiler.Debug = "False"
+        VWDPort = "49676"
+    EndProjectSection
+EndProject
