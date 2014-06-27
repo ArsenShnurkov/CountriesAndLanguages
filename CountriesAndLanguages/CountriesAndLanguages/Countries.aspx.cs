@@ -62,7 +62,7 @@ FROM country,countryLanguage WHERE code=countrycode AND isofficial='t' ORDER BY 
                 }
                 sqlConnection.Close();
             } catch (Exception msg) {
-        	errorMessage.InnerText=msg.ToString();
+        	//errorMessage.InnerText=msg.ToString();
                 System.Diagnostics.Debug.WriteLine(msg.ToString());
                 return false;
             }
